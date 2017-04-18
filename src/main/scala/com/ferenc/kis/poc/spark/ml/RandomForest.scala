@@ -10,7 +10,7 @@ import org.apache.spark.sql.types.DoubleType
 
 object RandomForest {
 
-  val INPUT_PATH = "d:\\Projects\\SparkML\\data\\bank.csv"
+  val INPUT_PATH = "src/main/resources/data/bank.csv"
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().master("local[4]").appName("random-forest").getOrCreate()

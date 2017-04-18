@@ -10,7 +10,7 @@ import org.apache.spark.sql.types.{DoubleType, StringType, StructField, StructTy
 
 object DecisionTree {
 
-  val INPUT_PATH = "d:\\Projects\\SparkML\\data\\iris.csv"
+  val INPUT_PATH = "src/main/resources/data/iris.csv"
   val NULL_VALUE = "?"
 
   def main(args: Array[String]): Unit = {

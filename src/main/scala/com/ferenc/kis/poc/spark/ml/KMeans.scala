@@ -8,7 +8,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types.{DoubleType, StringType}
 
 object KMeans {
-  val INPUT_PATH = "d:\\Projects\\SparkML\\data\\auto-data.csv"
+  val INPUT_PATH = "src/main/resources/data/auto-data.csv"
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().master("local[4]").appName("naive-bayes").getOrCreate()

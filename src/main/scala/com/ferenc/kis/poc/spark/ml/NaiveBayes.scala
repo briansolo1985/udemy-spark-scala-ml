@@ -9,7 +9,7 @@ import org.apache.spark.sql.functions.when
 import org.apache.spark.sql.types.{DoubleType, StringType}
 
 object NaiveBayes {
-  val INPUT_PATH = "d:\\Projects\\SparkML\\data\\SMSSpamCollection.csv"
+  val INPUT_PATH = "src/main/resources/data/SMSSpamCollection.csv"
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().master("local[4]").appName("naive-bayes").getOrCreate()

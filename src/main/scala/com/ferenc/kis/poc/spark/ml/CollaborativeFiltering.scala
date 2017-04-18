@@ -6,7 +6,7 @@ import org.apache.spark.sql.types.{DoubleType, IntegerType}
 
 object CollaborativeFiltering {
 
-  val INPUT_PATH = "d:\\Projects\\SparkML\\data\\UserItemData.txt"
+  val INPUT_PATH = "src/main/resources/data/UserItemData.txt"
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().master("local[4]").appName("collaborative-filtering").getOrCreate()

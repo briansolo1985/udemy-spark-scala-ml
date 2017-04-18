@@ -9,7 +9,7 @@ import org.apache.spark.sql.types._
 
 object LinerRegression {
 
-  val MILES_PER_GALLON_INPUT_PATH = "d:\\Projects\\SparkML\\data\\auto-miles-per-gallon.csv"
+  val MILES_PER_GALLON_INPUT_PATH = "src/main/resources/data/auto-miles-per-gallon.csv"
   val NULL_VALUE = "?"
 
   def main(args: Array[String]): Unit = {
